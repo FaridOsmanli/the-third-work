@@ -1,0 +1,53 @@
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .main2{
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+
+    }
+    .flex_child{
+        margin-top: 50px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .flex_child{
+        /* width: 1200px; */
+        height: 410px;
+        /* background-color: white; */
+        
+
+    }
+    .child_card{
+        width: 500px;
+    }
+
+    .child_card img{
+        width: 100%;
+        height: 100%;
+    }
+    .flex_child2{
+        text-align: end;
+    }
+    .flex_child2 p{ 
+        width: 400px;
+        font-size: 24px     ;
+    }
+    .flex_child2 p,h1,h2, button{
+        margin-top: 24px;
+
+    }   
+    .flex_child2 h2{
+        color: gray;
+    }
+    .flex_child2 button{
+    padding: 10px 30px;
+    background-color: white;
+    border: 2px solid black;
+    color: black;
+    font-size: 16px;
+
+    }
